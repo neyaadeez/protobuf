@@ -12,9 +12,9 @@ ayan.setLname("khan");
 ayan.setPhone(12443);
 
 const rohit = new Schema.Employee();
-ayan.setFname("rohit");
-ayan.setLname("suresh");
-ayan.setPhone(12443);
+rohit.setFname("rohit");
+rohit.setLname("suresh");
+rohit.setPhone(12443);
 
 const employees = new Schema.Employees();
 employees.addEmployees(ayan)
